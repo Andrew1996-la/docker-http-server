@@ -1,5 +1,5 @@
 service-deploy:
-	docker compose up -d application
+	docker compose up --build application
 
 service-undeploy:
 	docker compose down application
